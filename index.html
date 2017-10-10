@@ -1,26 +1,15 @@
 <!doctype HTML>
 <html>
   <head>
-    <title> Arthur Koehl </title>
+    <title> Projects </title>
     <link rel="stylesheet" href="mystyle.css">
   </head>
 
   <body>
 
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-      <div align="right" class="sidebar-title"> Arthur Koehl </div>
-      <ul align="right" class="sidebar-ul">
-        <li><a href="index.html"> home </a></li>
-        <li><a href="projects.html"> projects </a></li>
-        <li><a href="software.html"> software </a></li>
-        <li><a href="resume.html"> resume </a></li>
-      </ul>
-    </div> <!-- SIDEBAR -->
-
     <!-- MAIN -->
     <div class="main">
-      <!-- MAIN-BLOCK -->
+      <center> <h1> Arthur Koehl </h1> </center>
       <div class="main-block">
         <p>
           I am an undergraduate at the University of California at Davis where I pursue a triple major in computer science, economics and history.
@@ -28,15 +17,65 @@
           Increasingly, I am integrating digital methods in my research.
           My interests are in quantitative approaches to cultural and military history.
         </p>
+      </div> <!-- MAIN-BLOCK -->
+      <!-- MAIN-BLOCK -->
+      <div style="display: flex; flex-flow: row-wrap" class="main-block">
+        <a href="https://avkoehl.github.io/malgre-website/">
+          <img style="margin-top: 25px; margin-right: 10px; height: 256px; width: 256px" src="map.ico">
+        </a>
+        <div id="text" style="width: 600px">
+          <h3>
+            Malgre-Nous - A digital initiative to represent their story 
+          </h3>
+          <p>
+          Between 1942 to 1945, approximately 130,000 young men from Moselle and Alsace were conscripted into the German Army. 
+          They are called the "Malgre-Nous" (despite-us in English) in reference to the fact that they were fighting against their will for a country that was not their own. 
+          This web project takes a different approach to presenting the story of the Malgre-Nous.
+          It seeks to lay the foundations for a more complete view of their experience by using data, maps, and visualizations to generate a more comprehensive picture of their presence on the multiple fronts in Europe during the Second World War. 
+          </p>
+
+          <p style="line-height: 1rem">
+          dataset: <a href="https://github.com/avkoehl/malgre-locations"> avkoehl/malgre-locations </a> <br>
+          website: <a href="https://avkoehl.github.io/malgre-website/"> malgre-nous  </a>
+          </p>
+        </div>
+      </div> <!-- MAIN-BLOCK -->
+      <!-- MAIN -->
+
+      <div style="display: flex; flex-flow: row-wrap" class="main-block">
+        <a href="http://ds.lib.ucdavis.edu/archv/">
+          <img style="margin-top: 40px; margin-right: 10px; height: 256px; width: 256px"src="archv.ico">
+        </a>
+        <div id="text" style="width: 600px">
+          <h3>
+            Archive-Vision - CBIR for Early Modern imagesets
+          </h3>
+          <p>
+          The digitization of historical imagesets has vastly outpaced our ability to meaningfully search those sets.
+          Archive-Vision (Arch-V) allows users to query a library of images using an existing image as a seed.
+          Arch-V uses SURF feature dectection and description to find scale and rotation invariant keypoints on images.
+          The keypoints of the seed image are then compared with those of the images in the set.
+          The matching keypoints are then filtered using their geometric descriptors and statistical methods. 
+          Using the robust matching keypoints, the best matching images to the seed image are found.
+          </p>
+
+          <p style="line-height: 1rem">
+          github: <a href="https://github.com/avkoehl/archive-vision"> avkoehl/archive-vision </a> <br>
+          website: <a href="http://ds.lib.ucdavis.edu/archv/"> ds.lib.ucdavis.edu/archv </a> <br><br>
+          See in action on the English Broadside Ballad Association at UCSB! <br>
+          ebba: <a href="http://ebba.ds.lib.ucdavis.edu/"> ebba.ds.lib.ucdavis.edu </a>
+          </p>
+        </div> <!-- TEXT -->
+      </div> <!-- MAIN-BLOCK -->
+
+      <div style="margin-bottom: 30px" class="main-block">
         <p>
-          email: avkoehl at ucdavis dot edu
-        </p>
-        <p>
-          github: <a href="https://github.com/avkoehl"> avkoehl </a>
+          To see more of my work, follow the digital scholarship <a href="http://ds.lib.ucdavis.edu">blog</a>, find me on <a href="https://github.com/avkoehl">github</a>,
+          or download my resume as a <a href="resume.pdf">pdf</a>.
+          I can be contacted at my email address: avkoehl at ucdavis dot edu. 
         </p>
       </div> <!-- MAIN-BLOCK -->
-    <!-- MAIN -->
-
     </div>
+      <!-- MAIN -->
   </body>
 </html>
