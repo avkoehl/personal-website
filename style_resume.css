@@ -61,7 +61,7 @@ a.resume:hover {
 }
 .section:last-child { border: none }
 .section-text { width: 80%;
-                font-size: 18px;
+                font-size: 14px;
                 line-height: 24px;
                 margin: 10px 0 10px;
                 padding: 0 10px;
@@ -90,7 +90,7 @@ ul.skills{
 
 ul.skills li{
   list-style: none;
-  font-size:16px;
+  font-size:14px;
   margin-bottom:10px;
 }
 

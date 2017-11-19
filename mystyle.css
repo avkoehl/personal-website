@@ -72,6 +72,10 @@ a:hover {
   color: pink;
 }
 
+.sidebar-ul li {
+  margin-bottom: 10px;
+}
+
 /* MAIN */
 .main-block {
   width: 800px;
