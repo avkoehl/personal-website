@@ -11,14 +11,6 @@ body { margin: 0;
 /*
  Primary Rules
 */
-h1 { font-weight: 300;
-     margin: 5px 0 0;
-     font-size: 40px;
-     color:#ba0018;
-     padding: 0 10px 10px;
-     border-radius:2px;
-    font-family: 'Merriweather', serif;
-}
 h2 { color: #ba0018;
      width: 150px;
      font-size: 18px;
