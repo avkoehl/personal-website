@@ -14,7 +14,7 @@ body { margin: 0;
 h2 { color: #ba0018;
      width: 150px;
      font-size: 18px;
-     padding-left: 20px;
+     /*padding-left: 20px;*/
      font-weight:400;
      font-family: 'Merriweather', serif;
 }
