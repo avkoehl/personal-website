@@ -8,20 +8,6 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-img {
-	margin-right: 25px;
-	height: 256px;
-	width: 256px;
-}
-
-img:hover {
-	opacity: 0.5;
-}
-
-h3 {
-	color: #333;
-}
-
 a {
 	color: blue;
 	text-decoration: none;
@@ -31,12 +17,8 @@ a:hover {
 	color: black;
 }
 
-
-.test {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 20px;
+h3 {
+	color: #333;
 }
 
 h1 { 
@@ -47,27 +29,32 @@ h1 {
 	color: #333;
 }
 
+/* ===== CONTAINER AND CONTENT ============================================== */
 .main {
 	margin: auto;
-	margin-top: 0;
 	height: 100%;
 	padding: 0;
-	width: 960px;
+	width: 850px;
 }
 
-/* MAIN */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .main-block {
-	width: 960px;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
-	line-height: 1.3rem;
+	line-height: 1.4rem;
 	display: flex;
 	flex-direction: row;
-  /*margin-left: 20px;*/
 }
 
-
+/* ===== NAVIGATION ========================================================= */
 ul.navigation {
 	list-style-type: none;
 	margin: 0;
@@ -95,4 +82,14 @@ ul.navigation {
 	color: #c7071f;
 }
 
+/* ===== IMAGE ICONS ======================================================== */
+img {
+	margin-right: 25px;
+	height: 256px;
+	width: 256px;
+}
+
+img:hover {
+	opacity: 0.5;
+}
 
